@@ -1,0 +1,6 @@
+The data is sitting in three places:
+1.  A full copy on iPlant Data Commons at http://mirrors.iplantcollaborative.org/browse/iplant/home/shared/data_commons/Duitama_rice_variation_2015,
+2. A full copy on Dryad at http://datadryad.org/resource/doi:10.5061/dryad.8hg32/1
+3. The individual sequences that were used in the variant detection pipeline are available via SRA. The column labeled "sample title" in this file (http://mirrors.iplantcollaborative.org/browse/iplant/home/shared/data_commons/Duitama_rice_variation_2015/WGSOryza_CIAT_metadata/WGSOryza_sample_metadata.csv) contains the BioSample IDs from NCBI.
+
+The publication describing the data is at doi: 10.1038/nbt.2050.
