@@ -1,0 +1,7 @@
+Tiles
+/corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/jawon/10-01-13_5genos/100tile/B73_all3_tile_merged_100bp.txt
+/corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/jawon/10-01-13_5genos/100tile/Mo17_all3_tile_merged_100bp.txt
+/corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/jawon/10-01-13_5genos/100tile/CML322_all3_tile_merged_100bp.txt
+/corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/jawon/10-01-13_5genos/100tile/Oh43_all3_tile_merged_100bp.txt
+/corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/jawon/10-01-13_5genos/100tile/Tx303_all3_tile_merged_100bp.txt
+confirm if we need five tile DOIS
