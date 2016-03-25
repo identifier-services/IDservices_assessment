@@ -1,0 +1,1 @@
+Entity,Type,Number,Identifier type(s)project,data,1,"UUID,  BioProject"specimen,material entity,5,"UUID, Biosample, ARK"sequencing,process,5,"UUID, ARK"alignment,process,5,"UUID, ARK"analysis,process,5,"UUID, ARK"raw reads,data,5,SRABAM file,data,5,"UUID, DOI"100BPtiles,data,5,"UUID, DOI"
