@@ -1,19 +1,18 @@
-<!-- Tufts VUE 3.3.0 concept-map (Genomics_entities_Oct2015.vue) 2015-11-20 -->
+<!-- Tufts VUE 3.3.0 concept-map (Rice_variation_entities.vue) 2015-11-20 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.localized/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Fri Nov 20 13:18:23 MST 2015 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
+<!-- Do Not Remove: Saved date Fri Nov 20 13:18:21 MST 2015 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
-    label="Genomics_entities_Oct2015.vue" created="1402953208012"
-    x="0.0" y="0.0" width="840.33325" height="524.3512"
-    strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1448050703376" size="45493"
-        spec="/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/Genomics_entities_Oct2015.vue"
+    label="Rice_variation_entities.vue" created="1402953208012" x="0.0"
+    y="0.0" width="840.33325" height="524.3512" strokeWidth="0.0" autoSized="false">
+    <resource referenceCreated="1448050701873" size="45482"
+        spec="/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/Rice_variation_entities.vue"
         type="1" xsi:type="URLResource">
-        <title>Genomics_entities_Oct2015.vue</title>
-        <property key="File" value="/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/Genomics_entities_Oct2015.vue"/>
+        <title>Rice_variation_entities.vue</title>
+        <property key="File" value="/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/Rice_variation_entities.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
@@ -22,7 +21,7 @@
     <URIString>http://vue.tufts.edu/rdf/resource/a6b4c34380c4264001217ca6ef1d81d1</URIString>
     <child ID="67" label="project" layerID="1" created="1402954388142"
         x="1248.5895" y="114.097046" width="117.0" height="88.0"
-        strokeWidth="1.0" autoSized="false" xsi:type="node">
+        strokeWidth="3.0" autoSized="false" xsi:type="node">
         <fillColor>#82CDE4</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -32,7 +31,7 @@
     </child>
     <child ID="68" label="specimen" layerID="1" created="1402954388142"
         x="696.3482" y="157.32997" width="117.0" height="88.0"
-        strokeWidth="1.0" autoSized="false" xsi:type="node">
+        strokeWidth="3.0" autoSized="false" xsi:type="node">
         <fillColor>#BDE5F2</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -42,7 +41,7 @@
     </child>
     <child ID="69" label="sequencing" layerID="1"
         created="1402954388142" x="971.88794" y="295.5633"
-        width="121.399994" height="88.0" strokeWidth="1.0"
+        width="121.399994" height="88.0" strokeWidth="3.0"
         autoSized="false" xsi:type="node">
         <fillColor>#FEFEC9</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -53,7 +52,7 @@
     </child>
     <child ID="70" label="specimen&#xa;context" layerID="1"
         created="1402954388142" x="860.6549" y="5.1970367" width="117.0"
-        height="88.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
+        height="88.0" strokeWidth="3.0" autoSized="false" xsi:type="node">
         <fillColor>#BDE5F2</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -196,7 +195,7 @@
     </child>
     <child ID="119" label="assembly" layerID="1" created="1409182740760"
         x="1177.2153" y="247.82907" width="121.399994" height="88.0"
-        strokeWidth="1.0" autoSized="false" xsi:type="node">
+        strokeWidth="3.0" autoSized="false" xsi:type="node">
         <fillColor>#FEFEC9</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -710,7 +709,7 @@
     </child>
     <child ID="163" label="specimen collection" layerID="1"
         created="1445917068224" x="937.9033" y="140.18921"
-        width="169.79999" height="88.0" strokeWidth="1.0"
+        width="169.79999" height="88.0" strokeWidth="3.0"
         autoSized="false" xsi:type="node">
         <fillColor>#FEFEC9</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -734,7 +733,7 @@
     </child>
     <child ID="165" label="reference &#xa;guided&#xa;assembly"
         layerID="1" created="1445966855001" x="1117.8365" y="373.69153"
-        width="121.399994" height="88.0" strokeWidth="1.0"
+        width="121.399994" height="88.0" strokeWidth="3.0"
         autoSized="false" xsi:type="node">
         <fillColor>#FEFEC9</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -755,7 +754,7 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="167" label="is_a" layerID="1" created="1445966947333"
-        x="1194.7258" y="332.78662" width="27.0" height="43.947266"
+        x="1195.2258" y="332.78662" width="26.0" height="43.947266"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
@@ -768,7 +767,7 @@
         <ID2 xsi:type="node">119</ID2>
     </child>
     <child ID="168" label="is_a" layerID="1" created="1445966958845"
-        x="1261.8185" y="331.55347" width="27.0" height="43.699463"
+        x="1261.8496" y="331.55347" width="26.937744" height="43.699463"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
@@ -792,7 +791,7 @@
     </child>
     <child ID="170" label=" non-reference &#xa;genome" layerID="1"
         created="1445967230102" x="1078.6511" y="651.3202" width="142.5"
-        height="88.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
+        height="88.0" strokeWidth="3.0" autoSized="false" xsi:type="node">
         <fillColor>#BDE5F2</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -814,7 +813,7 @@
         <ID2 xsi:type="node">123</ID2>
     </child>
     <child ID="172" label="is_a" layerID="1" created="1445967280001"
-        x="1262.2295" y="618.5095" width="27.0" height="41.526123"
+        x="1262.7295" y="618.5095" width="26.0" height="41.526123"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
@@ -830,7 +829,7 @@
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/a6b4c35780c4264001217ca6bd9e2c7b</URIString>
     </layer>
-    <userZoom>0.5799110133465077</userZoom>
+    <userZoom>0.5226901834264819</userZoom>
     <userOrigin x="252.51184" y="-112.761536"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
@@ -884,5 +883,5 @@
     <date>2014-06-16</date>
     <modelVersion>6</modelVersion>
     <saveLocation>/Users/rwalls-iplant/IDservices_assessment/docs/diagrams</saveLocation>
-    <saveFile>/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/Genomics_entities_Oct2015.vue</saveFile>
+    <saveFile>/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/Rice_variation_entities.vue</saveFile>
 </LW-MAP>
