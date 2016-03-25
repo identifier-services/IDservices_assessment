@@ -4,7 +4,7 @@ diagrams:
 General images, e.g.for  modeling data, in formats for VUE (Visual Understanding Environment), PDF, or other.
 
 file locations: 
-Where the actual data files for each use case are located (as URIs). If no URI is available, supply at least an identifier (e.g., SRA or BioProject ID)
+A CSV spreadsheet with data on where the actual data files for each use case are located (as URIs). If no URI is available, supply at least an identifier (e.g., SRA or BioProject ID)
 
 metadata files:
 Files containing the metadata for each project, on the specimens, sequencing process, etc. Preferred format is CSV
