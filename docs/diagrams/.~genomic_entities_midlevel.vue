@@ -1,7 +1,7 @@
 <!-- Tufts VUE 3.3.0 concept-map (genomic_entities_midlevel.vue) 2016-04-07 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.localized/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Thu Apr 07 09:07:27 MST 2016 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
+<!-- Do Not Remove: Saved date Thu Apr 07 09:07:37 MST 2016 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -9,7 +9,7 @@
     label="genomic_entities_midlevel.vue" created="1402953208012"
     x="0.0" y="0.0" width="949.26776" height="618.0541"
     strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1460045247880" size="30540"
+    <resource referenceCreated="1460045257240" size="32417"
         spec="/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/genomic_entities_midlevel.vue"
         type="1" xsi:type="URLResource">
         <title>genomic_entities_midlevel.vue</title>
@@ -92,18 +92,18 @@
         <ID2 xsi:type="node">180</ID2>
     </child>
     <child ID="156" label="isPartOf" layerID="1" created="1410988208822"
-        x="1355.813" y="98.985855" width="450.76428" height="148.4785"
+        x="1355.8468" y="98.733444" width="448.87402" height="148.81831"
         strokeWidth="1.0" autoSized="false" controlCount="1"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/8575a0a80a8243d000d7813974a43d39</URIString>
-        <point1 x="1806.0773" y="246.96436"/>
-        <point2 x="1356.313" y="99.485855"/>
+        <point1 x="1804.2208" y="247.05176"/>
+        <point2 x="1356.3468" y="99.233444"/>
         <ID1 xsi:type="node">159</ID1>
         <ID2 xsi:type="node">180</ID2>
-        <ctrlPoint0 x="1778.7317" y="146.92223" xsi:type="point"/>
+        <ctrlPoint0 x="1771.4309" y="144.00192" xsi:type="point"/>
     </child>
     <child ID="159" label="post-assembly&#xa;analysis" layerID="1"
         created="1437515662128" x="1726.51" y="246.42377"
