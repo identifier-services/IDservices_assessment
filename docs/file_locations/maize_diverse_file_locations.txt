@@ -4,4 +4,14 @@ Tiles
 /corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/jawon/10-01-13_5genos/100tile/CML322_all3_tile_merged_100bp.txt
 /corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/jawon/10-01-13_5genos/100tile/Oh43_all3_tile_merged_100bp.txt
 /corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/jawon/10-01-13_5genos/100tile/Tx303_all3_tile_merged_100bp.txt
-confirm if we need five tile DOIS
+
+fastq files, BioProject ID, Biosample ID:
+Zea mays, B73, http://www.ncbi.nlm.nih.gov/sra/?term=SRR850328, PRJNA202919, SAMN01999519, http://www.ncbi.nlm.nih.gov/biosample/SAMN01999519
+Zea mays, B73, http://www.ncbi.nlm.nih.gov/sra/?term=SRR850332, PRJNA202919, SAMN01999519, http://www.ncbi.nlm.nih.gov/biosample/SAMN01999519
+Zea mays, CML322, http://www.ncbi.nlm.nih.gov/sra/?term=SRX731432, PRJNA263520, SAMN03103668, http://www.ncbi.nlm.nih.gov/biosample/SAMN03103668
+Zea mays, http://www.ncbi.nlm.nih.gov/sra/?term=SRX731433, PRJNA263520, SAMN03103673, http://www.ncbi.nlm.nih.gov/biosample/SAMN03103673
+Zea mays, http://www.ncbi.nlm.nih.gov/sra/?term=SRX731434, PRJNA263520, SAMN03103676, http://www.ncbi.nlm.nih.gov/biosample/SAMN03103676
+
+BAM files:
+don’t have locations
+
