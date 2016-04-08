@@ -1,7 +1,7 @@
 <!-- Tufts VUE 3.3.0 concept-map (genomic_entities_midlevel.vue) 2016-04-07 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.localized/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Thu Apr 07 09:07:37 MST 2016 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
+<!-- Do Not Remove: Saved date Thu Apr 07 11:49:40 MST 2016 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -9,7 +9,7 @@
     label="genomic_entities_midlevel.vue" created="1402953208012"
     x="0.0" y="0.0" width="949.26776" height="618.0541"
     strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1460045257240" size="32417"
+    <resource referenceCreated="1460054980832" size="32420"
         spec="/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/genomic_entities_midlevel.vue"
         type="1" xsi:type="URLResource">
         <title>genomic_entities_midlevel.vue</title>
@@ -289,9 +289,9 @@
         <ctrlPoint0 x="2036.956" y="112.83205" xsi:type="point"/>
     </child>
     <child ID="183"
-        label="Notes:&#xa;    &#xa;    &#xa;      1. This is a mid-lelel model that covers most genomic projects. The &#xa;      processes of sequencing, assembly, and alignment can be subdivided into &#xa;      more specific parts, with their own inputs and outputs. Likewise, some &#xa;      of them can be omited from a project (either because they didn't occur &#xa;      or because there is no information about them).&#xa;    &#xa;    &#xa;      2. Rather than specifying subclasses for sequening, assembly, and &#xa;      alignment, we will use &quot;type&quot; metadata to specify the specify type of &#xa;      sequening, assembly, or alignment process (e.g., sanger sequencing, &#xa;      RNAseq, metagenomic sequencing). CVs for these will be supplied.&#xa;    &#xa;    &#xa;      3. Every entity in a project has a part of relation to the project. Only &#xa;      some relations are shown here, for simplicity.&#xa;    &#xa;    &#xa;      4. See the low-leve entities map for a fuller picture of the different &#xa;      kinds of processes used in genomic studies."
+        label="Notes:&#xa;    &#xa;    &#xa;      1. This is a mid-lelel model that covers most genomic projects. The &#xa;      processes of sequencing and assembly can be subdivided into more &#xa;      specific parts, with their own inputs and outputs. Likewise, some of &#xa;      them can be omited from a project (either because they didn't occur or &#xa;      because there is no information about them).&#xa;    &#xa;    &#xa;      2. Rather than specifying subclasses for sequening and assembly, we will &#xa;      use &quot;type&quot; metadata to specify the specify type of sequening or assembly &#xa;      process (e.g., sanger sequencing, RNAseq, metagenomic sequencing). CVs &#xa;      for these will be supplied.&#xa;    &#xa;    &#xa;      3. Every entity in a project has a part of relation to the project. Only &#xa;      some relations are shown here, for simplicity.&#xa;    &#xa;    &#xa;      4. See the low-leve entities map for a fuller picture of the different &#xa;      kinds of processes used in genomic studies."
         layerID="1" created="1459993742367" x="1003.14307" y="563.73895"
-        width="922.0" height="208.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
+        width="921.0" height="208.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
         <textColor>#000000</textColor>
         <font>SansSerif-plain-14</font>
@@ -314,16 +314,16 @@
     &lt;/p&gt;
     &lt;p color="#404040" style="color: #404040"&gt;
       1. This is a mid-lelel model that covers most genomic projects. The 
-      processes of sequencing, assembly, and alignment can be subdivided into 
-      more specific parts, with their own inputs and outputs. Likewise, some 
-      of them can be omited from a project (either because they didn't occur 
-      or because there is no information about them).
+      processes of sequencing and assembly can be subdivided into more 
+      specific parts, with their own inputs and outputs. Likewise, some of 
+      them can be omited from a project (either because they didn't occur or 
+      because there is no information about them).
     &lt;/p&gt;
     &lt;p color="#404040" style="color: #404040"&gt;
-      2. Rather than specifying subclasses for sequening, assembly, and 
-      alignment, we will use &amp;quot;type&amp;quot; metadata to specify the specify type of 
-      sequening, assembly, or alignment process (e.g., sanger sequencing, 
-      RNAseq, metagenomic sequencing). CVs for these will be supplied.
+      2. Rather than specifying subclasses for sequening and assembly, we will 
+      use &amp;quot;type&amp;quot; metadata to specify the specify type of sequening or assembly 
+      process (e.g., sanger sequencing, RNAseq, metagenomic sequencing). CVs 
+      for these will be supplied.
     &lt;/p&gt;
     &lt;p color="#404040" style="color: #404040"&gt;
       3. Every entity in a project has a part of relation to the project. Only 
@@ -340,16 +340,16 @@
     
     
       1. This is a mid-lelel model that covers most genomic projects. The 
-      processes of sequencing, assembly, and alignment can be subdivided into 
-      more specific parts, with their own inputs and outputs. Likewise, some 
-      of them can be omited from a project (either because they didn't occur 
-      or because there is no information about them).
+      processes of sequencing and assembly can be subdivided into more 
+      specific parts, with their own inputs and outputs. Likewise, some of 
+      them can be omited from a project (either because they didn't occur or 
+      because there is no information about them).
     
     
-      2. Rather than specifying subclasses for sequening, assembly, and 
-      alignment, we will use "type" metadata to specify the specify type of 
-      sequening, assembly, or alignment process (e.g., sanger sequencing, 
-      RNAseq, metagenomic sequencing). CVs for these will be supplied.
+      2. Rather than specifying subclasses for sequening and assembly, we will 
+      use "type" metadata to specify the specify type of sequening or assembly 
+      process (e.g., sanger sequencing, RNAseq, metagenomic sequencing). CVs 
+      for these will be supplied.
     
     
       3. Every entity in a project has a part of relation to the project. Only 

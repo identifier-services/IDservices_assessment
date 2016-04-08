@@ -13,5 +13,5 @@ Zea mays, http://www.ncbi.nlm.nih.gov/sra/?term=SRX731433, PRJNA263520, SAMN0310
 Zea mays, http://www.ncbi.nlm.nih.gov/sra/?term=SRX731434, PRJNA263520, SAMN03103676, http://www.ncbi.nlm.nih.gov/biosample/SAMN03103676
 
 BAM files:
-don’t have locations
+/corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/5genos/B73_all3_R1_val_1.fq,/corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/5genos/B73_all3_R2_val_2.fq /corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/5genos/Mo17_all3_R1_val_1.fq,/corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/5genos/Mo17_all3_R2_val_2.fq/corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/5genos/CML322_R1.allreads_val_1.fq ,/corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/5genos/CML322_R2.allreads_val_2.fq /corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/5genos/Oh43_R1.allreads_val_1.fq,/corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/5genos/Oh43_R2.allreads_val_2.fq/corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/5genos/Tx303_R1.allreads_val_1.fq,/corral-tacc/tacc/iplant/vaughn/springer_vaughn/eichten/5genos/Tx303_R2.allreads_val_2.fq
 
