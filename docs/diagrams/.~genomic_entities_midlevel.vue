@@ -1,7 +1,7 @@
-<!-- Tufts VUE 3.3.0 concept-map (genomic_entities_midlevel.vue) 2016-04-07 -->
+<!-- Tufts VUE 3.3.0 concept-map (genomic_entities_midlevel.vue) 2016-04-08 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.localized/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Thu Apr 07 11:49:40 MST 2016 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
+<!-- Do Not Remove: Saved date Fri Apr 08 17:47:00 MST 2016 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -9,7 +9,7 @@
     label="genomic_entities_midlevel.vue" created="1402953208012"
     x="0.0" y="0.0" width="949.26776" height="618.0541"
     strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1460054980832" size="32420"
+    <resource referenceCreated="1460162820187" size="31067"
         spec="/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/genomic_entities_midlevel.vue"
         type="1" xsi:type="URLResource">
         <title>genomic_entities_midlevel.vue</title>
@@ -31,7 +31,7 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="69" label="sequencing" layerID="1"
-        created="1402954388142" x="1123.993" y="240.87878"
+        created="1402954388142" x="1134.2141" y="239.41861"
         width="150.69998" height="88.0" strokeWidth="1.0"
         autoSized="false" xsi:type="node">
         <fillColor>#FEFEC9</fillColor>
@@ -42,71 +42,46 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="73" label="isPartOf" layerID="1" created="1402954388142"
-        x="1216.7734" y="133.427" width="65.0" height="110.02759"
+        x="1294.2024" y="66.02539" width="65.0" height="48.384766"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/a6b4c34680c4264001217ca6bf3633db</URIString>
-        <point1 x="1221.0491" y="242.95459"/>
-        <point2 x="1277.4978" y="133.927"/>
-        <ID1 xsi:type="node">69</ID1>
+        <point1 x="1327.8248" y="113.91016"/>
+        <point2 x="1325.58" y="66.52539"/>
+        <ID1 xsi:type="node">203</ID1>
         <ID2 xsi:type="node">180</ID2>
     </child>
-    <child ID="76" label="isPartOf" layerID="1" created="1402954388142"
-        x="1074.0078" y="122.70349" width="182.79419" height="130.5069"
+    <child ID="76" label="isA" layerID="1" created="1402954388142"
+        x="1085.4349" y="177.15564" width="191.05005" height="83.85422"
         strokeWidth="1.0" strokeStyle="2" autoSized="false"
         controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#A6A6A6</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/a6b4c34880c4264001217ca65196b02f</URIString>
-        <point1 x="1074.5078" y="252.71039"/>
-        <point2 x="1256.302" y="123.20349"/>
+        <point1 x="1085.9349" y="260.50986"/>
+        <point2 x="1275.985" y="177.65564"/>
         <ID1 xsi:type="node">164</ID1>
-        <ID2 xsi:type="node">180</ID2>
+        <ID2 xsi:type="node">203</ID2>
     </child>
-    <child ID="119" label="reference guided &#xa;assembly (alignment)"
-        layerID="1" created="1409182740760" x="1453.6051" y="244.19019"
-        width="253.4" height="91.399994" strokeWidth="1.0"
-        autoSized="true" xsi:type="node">
-        <fillColor>#FEFEC9</fillColor>
-        <strokeColor>#000000</strokeColor>
-        <textColor>#000000</textColor>
-        <font>Arial-plain-21</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/1f63cb0e0a000103017accc9fa12c65c</URIString>
-        <shape xsi:type="ellipse"/>
-    </child>
-    <child ID="127" label="isPartOf" layerID="1" created="1409183385799"
-        x="1342.8228" y="117.19733" width="65.0" height="29.776733"
+    <child ID="127" label="isA" layerID="1" created="1409183385799"
+        x="1354.2336" y="191.11987" width="39.422363" height="58.47754"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/1f63cb130a000103017accc929a9ae0e</URIString>
-        <point1 x="1403.5468" y="146.47406"/>
-        <point2 x="1347.0989" y="117.69733"/>
+        <point1 x="1393.156" y="249.09741"/>
+        <point2 x="1354.7336" y="191.61987"/>
         <ID1 xsi:type="node">198</ID1>
-        <ID2 xsi:type="node">180</ID2>
-    </child>
-    <child ID="156" label="isPartOf" layerID="1" created="1410988208822"
-        x="1355.8468" y="98.733444" width="448.87402" height="148.81831"
-        strokeWidth="1.0" autoSized="false" controlCount="1"
-        arrowState="2" xsi:type="link">
-        <strokeColor>#404040</strokeColor>
-        <textColor>#404040</textColor>
-        <font>Arial-plain-18</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/8575a0a80a8243d000d7813974a43d39</URIString>
-        <point1 x="1804.2208" y="247.05176"/>
-        <point2 x="1356.3468" y="99.233444"/>
-        <ID1 xsi:type="node">159</ID1>
-        <ID2 xsi:type="node">180</ID2>
-        <ctrlPoint0 x="1771.4309" y="144.00192" xsi:type="point"/>
+        <ID2 xsi:type="node">203</ID2>
     </child>
     <child ID="159" label="post-assembly&#xa;analysis" layerID="1"
-        created="1437515662128" x="1726.51" y="246.42377"
+        created="1437515662128" x="1552.7518" y="247.88388"
         width="182.09999" height="85.09999" strokeWidth="1.0"
         autoSized="true" xsi:type="node">
         <fillColor>#FEFEC9</fillColor>
@@ -116,8 +91,8 @@
         <URIString>http://vue.tufts.edu/rdf/resource/b29f9b360a8ef01101c17f5a889291bc</URIString>
         <shape xsi:type="ellipse"/>
     </child>
-    <child ID="162" label="results" layerID="1" created="1437515765285"
-        x="1968.5941" y="413.57642" width="117.0" height="88.0"
+    <child ID="162" label="dataset" layerID="1" created="1437515765285"
+        x="1807.9772" y="400.43506" width="117.0" height="88.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#BDE5F2</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -137,32 +112,21 @@
         <URIString>http://vue.tufts.edu/rdf/resource/ae9787590a8ee278166acb5bd7f6ae08</URIString>
         <shape xsi:type="ellipse"/>
     </child>
-    <child ID="165" label="outputOf" layerID="1" created="1458922919561"
-        x="993.3828" y="329.14062" width="69.0" height="78.578125"
-        strokeWidth="1.0" strokeStyle="2" autoSized="false"
-        controlCount="0" arrowState="2" xsi:type="link">
+    <child ID="165" label="hasOutput" layerID="1"
+        created="1458922919561" x="985.8828" y="329.125" width="84.0"
+        height="78.59375" strokeWidth="1.0" strokeStyle="2"
+        autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#A6A6A6</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ae97875a0a8ee278166acb5b41730ad5</URIString>
-        <point1 x="1027.7014" y="407.21875"/>
-        <point2 x="1028.0641" y="329.64062"/>
-        <ID1 xsi:type="node">68</ID1>
-        <ID2 xsi:type="node">164</ID2>
-    </child>
-    <child ID="166" label="alignmed &#xa;genome file" layerID="1"
-        created="1458922957642" x="1496.759" y="415.9334"
-        width="175.30002" height="88.0" strokeWidth="1.0"
-        autoSized="false" xsi:type="node">
-        <fillColor>#BDE5F2</fillColor>
-        <strokeColor>#000000</strokeColor>
-        <textColor>#000000</textColor>
-        <font>Arial-plain-21</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/ae97875a0a8ee278166acb5b9c472087</URIString>
-        <shape xsi:type="ellipse"/>
+        <point1 x="1028.0641" y="329.625"/>
+        <point2 x="1027.7014" y="407.21875"/>
+        <ID1 xsi:type="node">164</ID1>
+        <ID2 xsi:type="node">68</ID2>
     </child>
     <child ID="167" label="sequence file" layerID="1"
-        created="1458922958154" x="1118.4438" y="414.49945"
+        created="1458922958154" x="1128.6649" y="410.11902"
         width="159.20001" height="88.0" strokeWidth="1.0"
         autoSized="false" xsi:type="node">
         <fillColor>#BDE5F2</fillColor>
@@ -172,22 +136,9 @@
         <URIString>http://vue.tufts.edu/rdf/resource/ae97875b0a8ee278166acb5b3e7b1a99</URIString>
         <shape xsi:type="ellipse"/>
     </child>
-    <child ID="169" label="outputOf" layerID="1" created="1458922992058"
-        x="1164.1934" y="328.35938" width="69.0" height="86.65625"
-        strokeWidth="1.0" autoSized="false" controlCount="0"
-        arrowState="2" xsi:type="link">
-        <strokeColor>#404040</strokeColor>
-        <textColor>#404040</textColor>
-        <font>Arial-plain-18</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/ae97875c0a8ee278166acb5b6f95d2f0</URIString>
-        <point1 x="1198.3729" y="414.51562"/>
-        <point2 x="1199.0139" y="328.85938"/>
-        <ID1 xsi:type="node">167</ID1>
-        <ID2 xsi:type="node">69</ID2>
-    </child>
     <child ID="170" label="data file" layerID="1"
-        created="1458923008155" x="1751.4473" y="416.3413" width="121.0"
-        height="88.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
+        created="1458923008155" x="1582.0696" y="406.12018"
+        width="121.0" height="88.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#BDE5F2</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -195,77 +146,49 @@
         <URIString>http://vue.tufts.edu/rdf/resource/ae97875c0a8ee278166acb5b9ec0adb1</URIString>
         <shape xsi:type="ellipse"/>
     </child>
-    <child ID="171" label="hasInput" layerID="1" created="1458923023603"
-        x="1265.9395" y="333.70654" width="285.2672" height="103.12604"
-        strokeWidth="1.0" autoSized="false" controlCount="1"
-        arrowState="2" xsi:type="link">
-        <strokeColor>#404040</strokeColor>
-        <textColor>#404040</textColor>
-        <font>Arial-plain-18</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/ae97875c0a8ee278166acb5b534c5e75</URIString>
-        <point1 x="1550.7067" y="334.20654"/>
-        <point2 x="1266.4395" y="436.33258"/>
-        <ID1 xsi:type="node">119</ID1>
-        <ID2 xsi:type="node">167</ID2>
-        <ctrlPoint0 x="1542.1869" y="346.9632" xsi:type="point"/>
-    </child>
     <child ID="173" label="hasOutput" layerID="1"
-        created="1458923044196" x="1827.1879" y="327.9088" width="83.0"
-        height="95.97156" strokeWidth="1.0" autoSized="false"
+        created="1458923044196" x="1662.8003" y="328.52454" width="83.0"
+        height="88.32922" strokeWidth="1.0" autoSized="false"
         controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ae97875d0a8ee278166acb5be8273acf</URIString>
-        <point1 x="1851.4237" y="328.4088"/>
-        <point2 x="1844.5688" y="423.38037"/>
+        <point1 x="1681.6692" y="329.02454"/>
+        <point2 x="1680.9272" y="416.35376"/>
         <ID1 xsi:type="node">159</ID1>
         <ID2 xsi:type="node">170</ID2>
-        <ctrlPoint0 x="1889.3795" y="372.60922" xsi:type="point"/>
+        <ctrlPoint0 x="1727.3025" y="375.52954" xsi:type="point"/>
     </child>
     <child ID="174" label="isPartOf" layerID="1" created="1458923052789"
-        x="913.8766" y="101.94165" width="328.2235" height="313.29764"
+        x="940.8558" y="38.11789" width="328.75153" height="375.3441"
         strokeWidth="1.0" autoSized="false" controlCount="1"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ae97875e0a8ee278166acb5b9b12c76d</URIString>
-        <point1 x="993.6313" y="414.73932"/>
-        <point2 x="1241.6001" y="102.44165"/>
+        <point1 x="998.11285" y="412.96198"/>
+        <point2 x="1269.1073" y="38.61789"/>
         <ID1 xsi:type="node">68</ID1>
         <ID2 xsi:type="node">180</ID2>
-        <ctrlPoint0 x="775.1375" y="179.48557" xsi:type="point"/>
-    </child>
-    <child ID="175" label="isA" layerID="1" created="1458923054853"
-        x="1651.9738" y="476.55914" width="104.553345"
-        height="25.145538" strokeWidth="1.0" autoSized="false"
-        controlCount="1" arrowState="2" xsi:type="link">
-        <strokeColor>#404040</strokeColor>
-        <textColor>#404040</textColor>
-        <font>Arial-plain-18</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/ae97875e0a8ee278166acb5b473e5d74</URIString>
-        <point1 x="1652.4738" y="487.34283"/>
-        <point2 x="1756.0271" y="477.05914"/>
-        <ID1 xsi:type="node">166</ID1>
-        <ID2 xsi:type="node">170</ID2>
-        <ctrlPoint0 x="1681.939" y="499.20837" xsi:type="point"/>
+        <ctrlPoint0 x="813.1015" y="172.1848" xsi:type="point"/>
     </child>
     <child ID="177" label="isPartOf" layerID="1" created="1458923071470"
-        x="1871.8397" y="447.94604" width="97.35498" height="22.0"
+        x="1702.3574" y="436.2524" width="106.31824" height="22.0"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ae97875f0a8ee278166acb5b9fddb04d</URIString>
-        <point1 x="1872.3397" y="459.5652"/>
-        <point2 x="1968.6947" y="458.3269"/>
+        <point1 x="1702.8574" y="448.58945"/>
+        <point2 x="1808.1757" y="445.91537"/>
         <ID1 xsi:type="node">170</ID1>
         <ID2 xsi:type="node">162</ID2>
     </child>
     <child ID="180" label="project" layerID="1" created="1458936506107"
-        x="1240.1804" y="49.013893" width="117.0" height="88.0"
+        x="1265.003" y="-21.31496" width="117.0" height="88.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#C1F780</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -275,23 +198,23 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="182" label="isPartOf" layerID="1" created="1459993678096"
-        x="1356.4707" y="94.07863" width="672.3794" height="320.101"
+        x="1380.3905" y="30.485565" width="485.2395" height="370.5535"
         strokeWidth="1.0" autoSized="false" controlCount="1"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ee6a9329ac1383a40690ee6ac3ae8229</URIString>
-        <point1 x="2028.3501" y="413.6797"/>
-        <point2 x="1356.9707" y="94.57863"/>
+        <point1 x="1865.13" y="400.53906"/>
+        <point2 x="1380.8905" y="30.985565"/>
         <ID1 xsi:type="node">162</ID1>
         <ID2 xsi:type="node">180</ID2>
-        <ctrlPoint0 x="2036.956" y="112.83205" xsi:type="point"/>
+        <ctrlPoint0 x="1855.897" y="99.69066" xsi:type="point"/>
     </child>
     <child ID="183"
-        label="Notes:&#xa;    &#xa;    &#xa;      1. This is a mid-lelel model that covers most genomic projects. The &#xa;      processes of sequencing and assembly can be subdivided into more &#xa;      specific parts, with their own inputs and outputs. Likewise, some of &#xa;      them can be omited from a project (either because they didn't occur or &#xa;      because there is no information about them).&#xa;    &#xa;    &#xa;      2. Rather than specifying subclasses for sequening and assembly, we will &#xa;      use &quot;type&quot; metadata to specify the specify type of sequening or assembly &#xa;      process (e.g., sanger sequencing, RNAseq, metagenomic sequencing). CVs &#xa;      for these will be supplied.&#xa;    &#xa;    &#xa;      3. Every entity in a project has a part of relation to the project. Only &#xa;      some relations are shown here, for simplicity.&#xa;    &#xa;    &#xa;      4. See the low-leve entities map for a fuller picture of the different &#xa;      kinds of processes used in genomic studies."
-        layerID="1" created="1459993742367" x="1003.14307" y="563.73895"
-        width="921.0" height="208.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
+        label="Notes:&#xa;    &#xa;    &#xa;      1. This is a mid-lelel model that covers most genomic projects. The &#xa;      processes of sequencing and assembly can be subdivided into more &#xa;      specific parts, with their own inputs and outputs. Likewise, some of &#xa;      them can be omited from a project (either because they didn't occur or &#xa;      because there is no information about them).&#xa;    &#xa;    &#xa;      2. Rather than specifying subclasses for sequening and assembly, we will &#xa;      use &quot;type&quot; metadata to specify the specify type of sequening or assembly &#xa;      process (e.g., sanger sequencing, RNAseq, metagenomic sequencing). CVs &#xa;      for these will be supplied.&#xa;    &#xa;    &#xa;      3. isPartOf relations are transitive.&#xa;    &#xa;    &#xa;      4. See the low-leve entities map for a fuller picture of the different &#xa;      kinds of processes used in genomic studies."
+        layerID="1" created="1459993742367" x="1001.68286" y="553.5179"
+        width="918.0" height="207.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
         <textColor>#000000</textColor>
         <font>SansSerif-plain-14</font>
@@ -326,8 +249,7 @@
       for these will be supplied.
     &lt;/p&gt;
     &lt;p color="#404040" style="color: #404040"&gt;
-      3. Every entity in a project has a part of relation to the project. Only 
-      some relations are shown here, for simplicity.
+      3. isPartOf relations are transitive.
     &lt;/p&gt;
     &lt;p color="#404040" style="color: #404040"&gt;
       4. See the low-leve entities map for a fuller picture of the different 
@@ -352,15 +274,14 @@
       for these will be supplied.
     
     
-      3. Every entity in a project has a part of relation to the project. Only 
-      some relations are shown here, for simplicity.
+      3. isPartOf relations are transitive.
     
     
       4. See the low-leve entities map for a fuller picture of the different 
       kinds of processes used in genomic studies.</label>
     </child>
     <child ID="185" label="process" layerID="1" created="1459994324154"
-        x="588.34485" y="139.7284" width="121.399994" height="88.0"
+        x="700.7766" y="168.93146" width="121.399994" height="88.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#FEFEC9</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -370,7 +291,7 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="186" label="material entity" layerID="1"
-        created="1459994330817" x="564.9309" y="244.4104" width="166.4"
+        created="1459994330817" x="677.3627" y="273.61346" width="166.4"
         height="88.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#FFC63B</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -380,7 +301,7 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="187" label="information &#xa;content entity" layerID="1"
-        created="1459994355008" x="563.6543" y="350.61075"
+        created="1459994355008" x="676.08606" y="379.8138"
         width="171.09999" height="84.1" strokeWidth="1.0"
         autoSized="true" xsi:type="node">
         <fillColor>#BDE5F2</fillColor>
@@ -391,7 +312,7 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="188" label="other" layerID="1" created="1459994382465"
-        x="590.7546" y="459.5103" width="117.0" height="88.0"
+        x="703.18634" y="488.71338" width="117.0" height="88.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#C1F780</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -401,45 +322,35 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="189" label="isA" layerID="1" created="1459995227766"
-        x="1259.945" y="485.0152" width="508.50354" height="80.8869"
+        x="1269.9669" y="480.768" width="348.53674" height="74.551636"
         strokeWidth="1.0" autoSized="false" controlCount="1"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ee8b176cac1383a40690ee6a8a04cf0b</URIString>
-        <point1 x="1260.445" y="485.5152"/>
-        <point2 x="1767.9485" y="490.37964"/>
+        <point1 x="1270.4669" y="481.268"/>
+        <point2 x="1618.0037" y="490.261"/>
         <ID1 xsi:type="node">167</ID1>
         <ID2 xsi:type="node">170</ID2>
-        <ctrlPoint0 x="1575.3674" y="621.85675" xsi:type="point"/>
+        <ctrlPoint0 x="1549.0847" y="602.87476" xsi:type="point"/>
     </child>
     <child ID="190" label="hasInput" layerID="1" created="1459995311489"
-        x="1715.1458" y="325.87146" width="69.0" height="99.431274"
+        x="1546.4493" y="327.91235" width="69.0" height="88.32544"
         strokeWidth="1.0" autoSized="false" controlCount="1"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ee8b176cac1383a40690ee6acc02328e</URIString>
-        <point1 x="1774.9895" y="326.37146"/>
-        <point2 x="1776.5435" y="424.80273"/>
+        <point1 x="1603.5211" y="328.41235"/>
+        <point2 x="1605.2391" y="415.7378"/>
         <ID1 xsi:type="node">159</ID1>
         <ID2 xsi:type="node">170</ID2>
-        <ctrlPoint0 x="1723.525" y="371.5824" xsi:type="point"/>
-    </child>
-    <child ID="191" label="de novo&#xa;assembly" layerID="1"
-        created="1459995525884" x="1295.0671" y="241.69926"
-        width="128.7" height="88.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
-        <fillColor>#FEFEC9</fillColor>
-        <strokeColor>#000000</strokeColor>
-        <textColor>#000000</textColor>
-        <font>Arial-plain-21</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/ee8b176cac1383a40690ee6abeccbc1e</URIString>
-        <shape xsi:type="ellipse"/>
+        <ctrlPoint0 x="1557.5186" y="371.7858" xsi:type="point"/>
     </child>
     <child ID="192" label="assembled &#xa;genome file" layerID="1"
-        created="1459995661591" x="1303.2715" y="416.4904"
+        created="1459995661591" x="1335.3948" y="410.6498"
         width="175.30002" height="88.0" strokeWidth="1.0"
         autoSized="false" xsi:type="node">
         <fillColor>#BDE5F2</fillColor>
@@ -449,74 +360,48 @@
         <URIString>http://vue.tufts.edu/rdf/resource/ee8b176dac1383a40690ee6a6d4f511f</URIString>
         <shape xsi:type="ellipse"/>
     </child>
-    <child ID="193" label="outputOf" layerID="1" created="1459995669888"
-        x="1340.6565" y="328.65967" width="69.0" height="88.728516"
-        strokeWidth="1.0" autoSized="false" controlCount="0"
-        arrowState="2" xsi:type="link">
-        <strokeColor>#404040</strokeColor>
-        <textColor>#404040</textColor>
-        <font>Arial-plain-18</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/ee8b176dac1383a40690ee6a47a6da99</URIString>
-        <point1 x="1383.0626" y="416.88818"/>
-        <point2 x="1367.2504" y="329.15967"/>
-        <ID1 xsi:type="node">192</ID1>
-        <ID2 xsi:type="node">191</ID2>
-    </child>
     <child ID="194" label="hasInput" layerID="1" created="1459995762626"
-        x="1233.8997" y="322.21008" width="91.45398" height="97.85901"
+        x="1253.5679" y="320.26172" width="125.37073" height="98.46362"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ee8b176dac1383a40690ee6ac286cf02</URIString>
-        <point1 x="1324.8538" y="322.71008"/>
-        <point2 x="1234.3998" y="419.5691"/>
-        <ID1 xsi:type="node">191</ID1>
+        <point1 x="1378.4385" y="320.76172"/>
+        <point2 x="1254.0677" y="418.22534"/>
+        <ID1 xsi:type="node">198</ID1>
         <ID2 xsi:type="node">167</ID2>
     </child>
-    <child ID="195" label="outputOf" layerID="1" created="1459995901278"
-        x="1547.8778" y="335.05078" width="69.0" height="81.4375"
-        strokeWidth="1.0" autoSized="false" controlCount="0"
-        arrowState="2" xsi:type="link">
-        <strokeColor>#404040</strokeColor>
-        <textColor>#404040</textColor>
-        <font>Arial-plain-18</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/ee8b176dac1383a40690ee6a0873d413</URIString>
-        <point1 x="1583.3485" y="415.98828"/>
-        <point2 x="1581.4071" y="335.55078"/>
-        <ID1 xsi:type="node">166</ID1>
-        <ID2 xsi:type="node">119</ID2>
-    </child>
     <child ID="196" label="hasInput" layerID="1" created="1459995949232"
-        x="1063.2117" y="321.92224" width="97.84094" height="94.727905"
+        x="1064.314" y="320.00244" width="105.50891" height="97.30902"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ee8b176dac1383a40690ee6ad0ce8a83</URIString>
-        <point1 x="1160.5525" y="322.42224"/>
-        <point2 x="1063.7115" y="416.15015"/>
+        <point1 x="1169.3229" y="320.50244"/>
+        <point2 x="1064.814" y="416.81146"/>
         <ID1 xsi:type="node">69</ID1>
         <ID2 xsi:type="node">68</ID2>
     </child>
     <child ID="197" label="isA" layerID="1" created="1459995994299"
-        x="1455.691" y="483.80786" width="306.11536" height="49.2146"
+        x="1484.9426" y="483.13208" width="119.34509" height="31.176361"
         strokeWidth="1.0" autoSized="false" controlCount="1"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ee8b176dac1383a40690ee6a10abbe7b</URIString>
-        <point1 x="1456.191" y="489.60037"/>
-        <point2 x="1761.3064" y="484.30786"/>
+        <point1 x="1485.4426" y="485.50717"/>
+        <point2 x="1603.7877" y="483.63208"/>
         <ID1 xsi:type="node">192</ID1>
         <ID2 xsi:type="node">170</ID2>
-        <ctrlPoint0 x="1607.5166" y="557.0909" xsi:type="point"/>
+        <ctrlPoint0 x="1559.3315" y="522.04724" xsi:type="point"/>
     </child>
     <child ID="198" label="assembly" layerID="1" created="1460041714954"
-        x="1392.4176" y="127.74489" width="121.399994" height="88.0"
+        x="1358.834" y="244.55713" width="121.399994" height="88.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#FEFEC9</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -525,38 +410,74 @@
         <URIString>http://vue.tufts.edu/rdf/resource/f17a758bac1383a40690ee6ab1c3aa4c</URIString>
         <shape xsi:type="ellipse"/>
     </child>
-    <child ID="199" label="isA" layerID="1" created="1460045142389"
-        x="1390.3156" y="208.90076" width="32.338867" height="39.113037"
-        strokeWidth="1.0" autoSized="false" controlCount="0"
-        arrowState="2" xsi:type="link">
+    <child ID="201" label="hasOutput" layerID="1"
+        created="1460055285397" x="1379.2892" y="331.9922" width="84.0"
+        height="79.203125" strokeWidth="1.0" autoSized="false"
+        controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/f17a758bac1383a40690ee6abd8b392f</URIString>
-        <point1 x="1390.8156" y="247.5138"/>
-        <point2 x="1422.1544" y="209.40076"/>
-        <ID1 xsi:type="node">191</ID1>
-        <ID2 xsi:type="node">198</ID2>
+        <URIString>http://vue.tufts.edu/rdf/resource/f215df8eac1383a40690ee6a7cd90d1b</URIString>
+        <point1 x="1420.4626" y="332.4922"/>
+        <point2 x="1422.1157" y="410.6953"/>
+        <ID1 xsi:type="node">198</ID1>
+        <ID2 xsi:type="node">192</ID2>
     </child>
-    <child ID="200" label="isA" layerID="1" created="1460045152742"
-        x="1489.804" y="205.7876" width="45.240845" height="42.09558"
+    <child ID="203" label="process" layerID="1" created="1460162697330"
+        x="1263.5676" y="113.79221" width="132.33398" height="80.86154"
+        strokeWidth="1.0" autoSized="false" xsi:type="node">
+        <fillColor>#FEFEC9</fillColor>
+        <strokeColor>#000000</strokeColor>
+        <textColor>#000000</textColor>
+        <font>Arial-plain-21</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/f87c7860ac1383a40690ee6a1eecc900</URIString>
+        <shape xsi:type="ellipse"/>
+    </child>
+    <child ID="204" label="isA" layerID="1" created="1460162718658"
+        x="1244.866" y="188.72156" width="52.81482" height="56.706177"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/f17a758bac1383a40690ee6acf295917</URIString>
-        <point1 x="1534.5448" y="247.38318"/>
-        <point2 x="1490.304" y="206.2876"/>
-        <ID1 xsi:type="node">119</ID1>
-        <ID2 xsi:type="node">198</ID2>
+        <URIString>http://vue.tufts.edu/rdf/resource/f87c7861ac1383a40690ee6a7835760e</URIString>
+        <point1 x="1245.3661" y="244.92773"/>
+        <point2 x="1297.1809" y="189.22156"/>
+        <ID1 xsi:type="node">69</ID1>
+        <ID2 xsi:type="node">203</ID2>
+    </child>
+    <child ID="205" label="isA" layerID="1" created="1460162723307"
+        x="1383.0876" y="177.07895" width="194.6676" height="84.99359"
+        strokeWidth="1.0" autoSized="false" controlCount="0"
+        arrowState="2" xsi:type="link">
+        <strokeColor>#404040</strokeColor>
+        <textColor>#404040</textColor>
+        <font>Arial-plain-18</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/f87c7864ac1383a40690ee6adb828e8e</URIString>
+        <point1 x="1577.2551" y="261.57254"/>
+        <point2 x="1383.5875" y="177.57895"/>
+        <ID1 xsi:type="node">159</ID1>
+        <ID2 xsi:type="node">203</ID2>
+    </child>
+    <child ID="207" label="hasOutput" layerID="1"
+        created="1460162775924" x="1166.9143" y="326.90625" width="84.0"
+        height="83.734375" strokeWidth="1.0" autoSized="false"
+        controlCount="0" arrowState="2" xsi:type="link">
+        <strokeColor>#404040</strokeColor>
+        <textColor>#404040</textColor>
+        <font>Arial-plain-18</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/f87c7864ac1383a40690ee6ad6a811f6</URIString>
+        <point1 x="1209.2292" y="327.40625"/>
+        <point2 x="1208.5995" y="410.14062"/>
+        <ID1 xsi:type="node">69</ID1>
+        <ID2 xsi:type="node">167</ID2>
     </child>
     <layer ID="1" label="Layer 1" created="1402953208025" x="0.0"
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/a6b4c35780c4264001217ca6bd9e2c7b</URIString>
     </layer>
-    <userZoom>0.6848596841179353</userZoom>
-    <userOrigin x="81.90021" y="-20.877035"/>
+    <userZoom>0.6848596868354856</userZoom>
+    <userOrigin x="332.68164" y="-94.54429"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1402953207641"
