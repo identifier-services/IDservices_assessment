@@ -1,7 +1,7 @@
-<!-- Tufts VUE 3.3.0 concept-map (genomic_entities_highlevel.vue) 2016-04-07 -->
+<!-- Tufts VUE 3.3.0 concept-map (genomic_entities_highlevel.vue) 2016-04-08 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.localized/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Thu Apr 07 11:47:58 MST 2016 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
+<!-- Do Not Remove: Saved date Fri Apr 08 17:44:23 MST 2016 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -9,7 +9,7 @@
     label="genomic_entities_highlevel.vue" created="1402953208012"
     x="0.0" y="0.0" width="949.26776" height="618.0541"
     strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1460054878840" size="21796"
+    <resource referenceCreated="1460162663756" size="22931"
         spec="/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/genomic_entities_highlevel.vue"
         type="1" xsi:type="URLResource">
         <title>genomic_entities_highlevel.vue</title>
@@ -77,7 +77,7 @@
         <URIString>http://vue.tufts.edu/rdf/resource/b29f9b360a8ef01101c17f5a889291bc</URIString>
         <shape xsi:type="ellipse"/>
     </child>
-    <child ID="162" label="results" layerID="1" created="1437515765285"
+    <child ID="162" label="dataset" layerID="1" created="1437515765285"
         x="1591.4523" y="409.27444" width="117.0" height="88.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#BDE5F2</fillColor>
@@ -187,9 +187,9 @@
         <ctrlPoint0 x="1664.0115" y="143.59988" xsi:type="point"/>
     </child>
     <child ID="183"
-        label="Notes: &#xa;    &#xa;    &#xa;      1. This is the most fundamental model for a genomics project. The &#xa;      simplest project would have no processes beyond sequencing, and thus &#xa;      only have specimen, sequencing, and sequence file as parts of the &#xa;      project. More complex projects will have additional processes, with &#xa;      their inputs and outputs, but all the entities will usually be  a &#xa;      subclass of one of the entities shown hear.&#xa;    &#xa;    &#xa;      2. Even though specimen collection is an important process, metadata for &#xa;      the collection process is usually associated with the specimen itself &#xa;      (as in BioSamples). We adopt that practices here for our proof of &#xa;      concept, but fully support the notion that a seperate entity should be &#xa;      created for that process.&#xa;    &#xa;    &#xa;      3. Every entity in a project has a part of relation to the project. Only &#xa;      some relations are shown here, for simplicity.&#xa;    &#xa;    &#xa;      4. Results can have entities other than data files as parts, such as &#xa;      conclusions, figures, publications."
+        label="Notes: &#xa;    &#xa;    &#xa;      1. This is the most fundamental model for a genomics project. The &#xa;      simplest project would have no processes beyond sequencing, and thus &#xa;      only have specimen, sequencing, and sequence file as parts of the &#xa;      project. More complex projects will have additional processes, with &#xa;      their inputs and outputs, but all the entities will usually be  a &#xa;      subclass of one of the entities shown hear.&#xa;    &#xa;    &#xa;      2. Even though specimen collection is an important process, metadata for &#xa;      the collection process is usually associated with the specimen itself &#xa;      (as in BioSamples). We adopt that practices here for our proof of &#xa;      concept, but fully support the notion that a seperate entity should be &#xa;      created for that process.&#xa;    &#xa;    &#xa;      3. isPartOf relations are transitive.&#xa;    &#xa;    &#xa;      4. Results can have entities other than data files as parts, such as &#xa;      conclusions, figures, publications."
         layerID="1" created="1459993742367" x="957.18713" y="517.8504"
-        width="804.0" height="338.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
+        width="803.0" height="336.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
         <textColor>#000000</textColor>
         <font>SansSerif-plain-14</font>
@@ -226,8 +226,7 @@
       created for that process.
     &lt;/p&gt;
     &lt;p color="#404040" style="color: #404040"&gt;
-      3. Every entity in a project has a part of relation to the project. Only 
-      some relations are shown here, for simplicity.
+      3. isPartOf relations are transitive.
     &lt;/p&gt;
     &lt;p color="#404040" style="color: #404040"&gt;
       4. Results can have entities other than data files as parts, such as 
@@ -257,15 +256,14 @@
       created for that process.
     
     
-      3. Every entity in a project has a part of relation to the project. Only 
-      some relations are shown here, for simplicity.
+      3. isPartOf relations are transitive.
     
     
       4. Results can have entities other than data files as parts, such as 
       conclusions, figures, publications.</label>
     </child>
     <child ID="185" label="process" layerID="1" created="1459994324154"
-        x="632.7988" y="82.36838" width="121.399994" height="88.0"
+        x="733.17883" y="209.99438" width="121.399994" height="88.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#FEFEC9</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -275,7 +273,7 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="186" label="material entity" layerID="1"
-        created="1459994330817" x="609.3849" y="187.05038" width="166.4"
+        created="1459994330817" x="709.7649" y="314.6764" width="166.4"
         height="88.0" strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#FFC63B</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -285,7 +283,7 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="187" label="information &#xa;content entity" layerID="1"
-        created="1459994355008" x="607.601" y="293.16635"
+        created="1459994355008" x="707.981" y="420.79236"
         width="171.09999" height="84.1" strokeWidth="1.0"
         autoSized="true" xsi:type="node">
         <fillColor>#BDE5F2</fillColor>
@@ -296,7 +294,7 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="188" label="other" layerID="1" created="1459994382465"
-        x="632.42505" y="397.8483" width="117.0" height="88.0"
+        x="732.80505" y="525.47437" width="117.0" height="88.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#C1F780</fillColor>
         <strokeColor>#000000</strokeColor>
