@@ -1,18 +1,18 @@
-<!-- Tufts VUE 3.3.0 concept-map (IDS_data_model_simple.vue) 2016-10-11 -->
+<!-- Tufts VUE 3.3.0 concept-map (IDS_data_model_simple_no_notes.vue) 2016-10-11 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.localized/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Tue Oct 11 11:42:14 MST 2016 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
+<!-- Do Not Remove: Saved date Tue Oct 11 11:43:23 MST 2016 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
-    label="IDS_data_model_simple.vue" created="1402953208012" x="0.0"
-    y="0.0" width="610.0" height="770.8521" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1476211334298" size="17328"
-        spec="/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/IDS_data_model_simple.vue"
+    label="IDS_data_model_simple_no_notes.vue" created="1402953208012"
+    x="0.0" y="0.0" width="610.0" height="770.8521" strokeWidth="0.0" autoSized="false">
+    <resource referenceCreated="1476211403718" size="17365"
+        spec="/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/IDS_data_model_simple_no_notes.vue"
         type="1" xsi:type="URLResource">
-        <title>IDS_data_model_simple.vue</title>
-        <property key="File" value="/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/IDS_data_model_simple.vue"/>
+        <title>IDS_data_model_simple_no_notes.vue</title>
+        <property key="File" value="/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/IDS_data_model_simple_no_notes.vue"/>
     </resource>
     <fillColor>#FFFFFF</fillColor>
     <strokeColor>#404040</strokeColor>
@@ -172,53 +172,8 @@
         <ID2 xsi:type="node">203</ID2>
         <ctrlPoint0 x="1222.6667" y="340.06247" xsi:type="point"/>
     </child>
-    <child ID="197"
-        label="Notes:&#xa;    &#xa;    &#xa;      1. This is the simple data model that underlies iIDS. It can be used for &#xa;      any project by specifying types of processes, material entities, and &#xa;      information content entity.&#xa;    &#xa;    &#xa;      2. isPartOf relations are transitive."
-        layerID="1" created="1463775988455" x="1051.0122" y="728.03046"
-        width="610.0" height="119.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
-        <strokeColor>#404040</strokeColor>
-        <textColor>#000000</textColor>
-        <font>SansSerif-plain-14</font>
-        <URIString>http://vue.tufts.edu/rdf/resource/cfd91dc50a8ec4da4ad34f3eaee57eed</URIString>
-        <richText>&lt;html&gt;
-  &lt;head color="#404040" style="color: #404040"&gt;
-    &lt;style type="text/css"&gt;
-      &lt;!--
-        body { margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; font-size: 18; font-family: Arial; color: #404040 }
-        ol { margin-top: 6; font-family: Arial; vertical-align: middle; margin-left: 30; font-size: 18; list-style-position: outside }
-        p { margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; color: #404040 }
-        ul { margin-top: 6; font-size: 18; margin-left: 30; vertical-align: middle; list-style-position: outside; font-family: Arial }
-      --&gt;
-    &lt;/style&gt;
-    
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;p color="#404040" style="color: #404040"&gt;
-      Notes:
-    &lt;/p&gt;
-    &lt;p color="#404040" style="color: #404040"&gt;
-      1. This is the simple data model that underlies iIDS. It can be used for 
-      any project by specifying types of processes, material entities, and 
-      information content entity.
-    &lt;/p&gt;
-    &lt;p color="#404040" style="color: #404040"&gt;
-      2. isPartOf relations are transitive.
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</richText>
-        <label>Notes:
-    
-    
-      1. This is the simple data model that underlies iIDS. It can be used for 
-      any project by specifying types of processes, material entities, and 
-      information content entity.
-    
-    
-      2. isPartOf relations are transitive.</label>
-    </child>
     <child ID="198" label="is a" layerID="1" created="1476210671246"
-        x="1183.6045" y="505.76562" width="26.0" height="99.71875"
+        x="1182.6045" y="505.76562" width="28.0" height="99.71875"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
@@ -324,5 +279,5 @@
     <date>2014-06-16</date>
     <modelVersion>6</modelVersion>
     <saveLocation>/Users/rwalls-iplant/IDservices_assessment/docs/diagrams</saveLocation>
-    <saveFile>/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/IDS_data_model_simple.vue</saveFile>
+    <saveFile>/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/IDS_data_model_simple_no_notes.vue</saveFile>
 </LW-MAP>
