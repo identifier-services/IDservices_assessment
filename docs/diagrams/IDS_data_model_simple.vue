@@ -1,14 +1,14 @@
-<!-- Tufts VUE 3.3.0 concept-map (IDS_data_model_simple.vue) 2016-10-11 -->
+<!-- Tufts VUE 3.3.0 concept-map (IDS_data_model_simple.vue) 2016-10-12 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.localized/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Tue Oct 11 11:42:14 MST 2016 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
+<!-- Do Not Remove: Saved date Wed Oct 12 12:52:32 MST 2016 by rwalls-iplant on platform Mac OS X 10.9.5 in JVM 1.8.0_20-b26 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="IDS_data_model_simple.vue" created="1402953208012" x="0.0"
     y="0.0" width="610.0" height="770.8521" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1476211334298" size="17328"
+    <resource referenceCreated="1476301952574" size="17324"
         spec="/Users/rwalls-iplant/IDservices_assessment/docs/diagrams/IDS_data_model_simple.vue"
         type="1" xsi:type="URLResource">
         <title>IDS_data_model_simple.vue</title>
@@ -20,7 +20,7 @@
     <font>SansSerif-plain-14</font>
     <URIString>http://vue.tufts.edu/rdf/resource/a6b4c34380c4264001217ca6ef1d81d1</URIString>
     <child ID="68" label="specimen" layerID="1" created="1402954388142"
-        x="1136.6489" y="604.96967" width="121.0" height="88.0"
+        x="1135.1072" y="604.96967" width="121.0" height="88.0"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#FFC63B</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -73,15 +73,15 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="173" label="hasOutput" layerID="1"
-        created="1458923044196" x="1396.5605" y="312.2195" width="83.0"
-        height="85.1467" strokeWidth="1.0" autoSized="false"
+        created="1458923044196" x="1396.4868" y="312.2195" width="83.0"
+        height="86.688324" strokeWidth="1.0" autoSized="false"
         controlCount="1" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ae97875d0a8ee278166acb5be8273acf</URIString>
         <point1 x="1403.5425" y="312.7195"/>
-        <point2 x="1410.7039" y="396.8662"/>
+        <point2 x="1410.4089" y="398.40784"/>
         <ID1 xsi:type="node">159</ID1>
         <ID2 xsi:type="node">203</ID2>
         <ctrlPoint0 x="1468.9979" y="345.4698" xsi:type="point"/>
@@ -124,14 +124,14 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="182" label="isPartOf" layerID="1" created="1459993678096"
-        x="1410.4557" y="141.31207" width="168.4679" height="279.3117"
+        x="1410.4557" y="141.31207" width="167.67041" height="279.6435"
         strokeWidth="1.0" autoSized="false" controlCount="1"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ee6a9329ac1383a40690ee6ac3ae8229</URIString>
-        <point1 x="1505.5588" y="420.12378"/>
+        <point1 x="1502.3693" y="420.45557"/>
         <point2 x="1410.9557" y="141.81207"/>
         <ID1 xsi:type="node">187</ID1>
         <ID2 xsi:type="node">180</ID2>
@@ -147,10 +147,10 @@
         <URIString>http://vue.tufts.edu/rdf/resource/ee729e8eac1383a40690ee6ab10bac1b</URIString>
         <shape xsi:type="ellipse"/>
     </child>
-    <child ID="187" label="information &#xa;content entity" layerID="1"
+    <child ID="187" label="data entity" layerID="1"
         created="1459994355008" x="1394.6993" y="418.03842"
-        width="171.09999" height="84.1" strokeWidth="1.0"
-        autoSized="true" xsi:type="node">
+        width="163.27612" height="85.191986" strokeWidth="1.0"
+        autoSized="false" xsi:type="node">
         <fillColor>#BDE5F2</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
@@ -159,7 +159,7 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="190" label="hasInput" layerID="1" created="1459995311489"
-        x="1217.0835" y="310.58405" width="70.22656" height="86.78204"
+        x="1217.4497" y="310.58405" width="69.86035" height="88.32379"
         strokeWidth="1.0" autoSized="false" controlCount="1"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
@@ -167,13 +167,13 @@
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/ee8b176cac1383a40690ee6acc02328e</URIString>
         <point1 x="1286.81" y="311.08405"/>
-        <point2 x="1274.1904" y="396.8661"/>
+        <point2 x="1275.6556" y="398.40784"/>
         <ID1 xsi:type="node">159</ID1>
         <ID2 xsi:type="node">203</ID2>
         <ctrlPoint0 x="1222.6667" y="340.06247" xsi:type="point"/>
     </child>
     <child ID="197"
-        label="Notes:&#xa;    &#xa;    &#xa;      1. This is the simple data model that underlies iIDS. It can be used for &#xa;      any project by specifying types of processes, material entities, and &#xa;      information content entity.&#xa;    &#xa;    &#xa;      2. isPartOf relations are transitive."
+        label="Notes: 1. This is the simple data model that underlies iIDS. It can be used for any project by specifying types of processes, material entities, and &#xa;      information content entity. 2. isPartOf relations are transitive."
         layerID="1" created="1463775988455" x="1051.0122" y="728.03046"
         width="610.0" height="119.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
@@ -207,57 +207,50 @@
   &lt;/body&gt;
 &lt;/html&gt;
 </richText>
-        <label>Notes:
-    
-    
-      1. This is the simple data model that underlies iIDS. It can be used for 
-      any project by specifying types of processes, material entities, and 
-      information content entity.
-    
-    
-      2. isPartOf relations are transitive.</label>
+        <label>Notes: 1. This is the simple data model that underlies iIDS. It can be used for any project by specifying types of processes, material entities, and 
+      information content entity. 2. isPartOf relations are transitive.</label>
     </child>
     <child ID="198" label="is a" layerID="1" created="1476210671246"
-        x="1183.6045" y="505.76562" width="26.0" height="99.71875"
+        x="1181.8335" y="505.8125" width="28.0" height="99.65625"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/b50873d20a8eeab830244150cce374f1</URIString>
-        <point1 x="1196.8923" y="604.9844"/>
-        <point2 x="1196.3165" y="506.26562"/>
+        <point1 x="1195.7139" y="604.96875"/>
+        <point2 x="1195.9531" y="506.3125"/>
         <ID1 xsi:type="node">68</ID1>
         <ID2 xsi:type="node">186</ID2>
     </child>
     <child ID="199" label="is a" layerID="1" created="1476210681446"
-        x="1399.25" y="500.0669" width="59.556396" height="109.01953"
+        x="1398.5498" y="501.06323" width="56.884155" height="107.86548"
         strokeWidth="1.0" autoSized="false" controlCount="0"
         arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/b50873d30a8eeab830244150b3870deb</URIString>
-        <point1 x="1399.75" y="608.5864"/>
-        <point2 x="1458.3064" y="500.5669"/>
+        <point1 x="1399.0499" y="608.4287"/>
+        <point2 x="1454.9341" y="501.56323"/>
         <ID1 xsi:type="node">170</ID1>
         <ID2 xsi:type="node">187</ID2>
     </child>
     <child ID="200" label="is a" layerID="1" created="1476210682038"
-        x="1504.6555" y="499.6145" width="68.456665" height="109.40845"
-        strokeWidth="1.0" autoSized="false" controlCount="0"
-        arrowState="2" xsi:type="link">
+        x="1501.7604" y="500.33105" width="70.638916"
+        height="108.983154" strokeWidth="1.0" autoSized="false"
+        controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#404040</strokeColor>
         <textColor>#404040</textColor>
         <font>Arial-plain-18</font>
         <URIString>http://vue.tufts.edu/rdf/resource/b50873d40a8eeab8302441504fb890ed</URIString>
-        <point1 x="1572.612" y="608.52295"/>
-        <point2 x="1505.1554" y="500.1145"/>
+        <point1 x="1571.8993" y="608.8142"/>
+        <point2 x="1502.2604" y="500.83105"/>
         <ID1 xsi:type="node">162</ID1>
         <ID2 xsi:type="node">187</ID2>
     </child>
     <child ID="203" label="OR" layerID="1" created="1476210790856"
-        x="1077.012" y="396.86618" width="515.67883" height="133.75417"
+        x="1078.5536" y="398.40787" width="515.67883" height="133.75417"
         strokeWidth="1.0" autoSized="false" xsi:type="node">
         <fillColor>#00000000</fillColor>
         <strokeColor>#000000</strokeColor>
@@ -270,7 +263,7 @@
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/a6b4c35780c4264001217ca6bd9e2c7b</URIString>
     </layer>
-    <userZoom>0.541875</userZoom>
+    <userZoom>0.6486328471252667</userZoom>
     <userOrigin x="242.61046" y="-29.490864"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
