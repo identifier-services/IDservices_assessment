@@ -1,0 +1,6 @@
+species,specimen_id,strain,age,type,gender
+test,1,test,10,test,male
+test,2,test,15,test,female
+test,3,test,20,test,male
+test,4,test,25,test,female
+test,5,test,30,test,male
